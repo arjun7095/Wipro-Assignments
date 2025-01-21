@@ -1,6 +1,8 @@
 -- **INSERT Statements**
 
 -- Adding new books to the library
+use mydb;
+
 INSERT INTO Books (BookID, Title, Author, Category, PublishedYear, CopiesAvailable)
 VALUES
 (101, '1984', 'George Orwell', 'Fiction', 1949, 5),
